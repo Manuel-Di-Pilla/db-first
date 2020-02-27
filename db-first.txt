@@ -8,6 +8,6 @@ modello: VARCHAR(50) NOTNULL
 marca: VARCHAR(50) NOTNULL
 colore: VARCHAR(20) DEFAULT(nero)
 km: INT NOTNULL
-prezzo: TINYINT NOTNULL
+prezzo: INT NOTNULL
 carburante:VARCHAR(30) DEFAULT(benzina)
 anno: YEAR NOTNULL
